@@ -28,6 +28,12 @@
     }
 </style>
 
+<style>
+    #star1,#star2,#star3,#star4,#star5{
+        cursor: pointer;
+    }
+</style>
+
 <div ng-controller="songDetailsController">
     <div style=" height: 16vh"></div>
     <div class="col-sm-3"></div>
@@ -53,12 +59,23 @@
                 <td>{{details[0].genre}}</td>
             </tr>
             <tr>
-                <th>Rating</th>
+                <th>MDbS Rating</th>
                 <td>{{details[0].rating}}</td>
             </tr>
             <tr>
                 <th>Your Rating</th>
-                <td></td>
+                <td>
+                    <i class="fa fa-star-o" id="star1" ng-show="!oneStar" ng-click="storeRating(1)"></i>
+                    <i class="fa fa-star" ng-show="oneStar"></i>
+                    <i class="fa fa-star-o" id="star2" ng-show="!twoStar" ng-click="storeRating(2)"></i>
+                    <i class="fa fa-star" ng-show="twoStar"></i>                    
+                    <i class="fa fa-star-o" id="star3" ng-show="!threeStar" ng-click="storeRating(3)"></i>
+                    <i class="fa fa-star" ng-show="threeStar"></i>
+                    <i class="fa fa-star-o" id="star4" ng-show="!fourStar" ng-click="storeRating(4)"></i>
+                    <i class="fa fa-star" ng-show="fourStar"></i>
+                    <i class="fa fa-star-o" id="star5" ng-show="!fiveStar" ng-click="storeRating(5)"></i>
+                    <i class="fa fa-star" ng-show="fiveStar"></i>
+                </td>
             </tr>
         </table>
     </div>

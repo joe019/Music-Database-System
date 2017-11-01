@@ -14,6 +14,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Miltonian" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
 
     <body data-ng-controller="GlobalController" style=" background-image: url(views/images/musicNote2.jpg); 

@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password"
-                                         ng-model="passWord">
+                                               ng-model="passWord">
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
