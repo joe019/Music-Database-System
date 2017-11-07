@@ -20,7 +20,7 @@ For Ubuntu
 Do the following (one-time):
 
 2. To put files in /var/www/html you need root permission. For that, set the root password(if already not set):<br>
-sudo passwd root<br>
+<code>sudo passwd root</code><br>
 Now login as root:<br>
 su root<br>
 Give permission to the folder:<br>
