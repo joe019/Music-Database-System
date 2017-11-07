@@ -33,23 +33,17 @@ or<br>
 <code>nano apache2.conf<br></code>
 
 Change the below code:<br>
-<code>
-<Directory /var/www/><br>
-Options Indexes FollowSymLinks<br>
-AllowOverride None<br>
-Require all granted<br>
-</Directory><br>
-</code>
-<br>
+<code><Directory /var/www/></code><br>
+<code>Options Indexes FollowSymLinks</code><br>
+<code>AllowOverride None</code><br>
+<code>Require all granted</code><br>
+<code></Directory></code><br>
 as:<br>
-<br>
-<code>
-<Directory /var/www/><br>
-Options Indexes FollowSymLinks<br>
-AllowOverride All<br>
-Require all granted<br>
-</Directory><br>
-</code>
+<code><Directory /var/www/></code><br>
+<code>Options Indexes FollowSymLinks</code><br>
+<code>AllowOverride All</code><br>
+<code>Require all granted</code><br>
+<code></Directory><br></code>
 
 4. Enable rewrite mode:<br>
 <code>sudo a2enmod rewrite</code><br>
