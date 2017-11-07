@@ -32,20 +32,20 @@ sudo chmod 755 /var/www/html
 cd /etc/apache2
 nano apache2.conf
 
-Change the below code:
-<Directory /var/www/>
-Options Indexes FollowSymLinks
-AllowOverride None
-Require all granted
-</Directory>
-
-as:
-
-<Directory /var/www/>
-Options Indexes FollowSymLinks
-AllowOverride All
-Require all granted
-</Directory>
+Change the below code:<br>
+<Directory /var/www/><br>
+Options Indexes FollowSymLinks<br>
+AllowOverride None<br>
+Require all granted<br>
+</Directory><br>
+<br>
+as:<br>
+<br>
+<Directory /var/www/><br>
+Options Indexes FollowSymLinks<br>
+AllowOverride All<br>
+Require all granted<br>
+</Directory><br>
 
 4. Enable rewrite mode:
 sudo a2enmod rewrite
