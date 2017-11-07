@@ -2,8 +2,9 @@
 ## DBMS PROJECT
 ### Joe Antony 15CO220
 ### Prateek Kembhavi 15CO223
+
+### To run the project : 
 <br>
-### To run the project : <br>
 For Windows
 1. Install WampServer (https://sourceforge.net/projects/wampserver/files/latest/download)
 
