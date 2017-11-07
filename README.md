@@ -14,7 +14,7 @@ For Windows
 4. Import db_music.sql to phpMyAdmin
 
 5. Go to http://localhost/Music-Database-System/
-
+<br>
 For Ubuntu
 1. Install LAMP and phpMyAdmin in Ubuntu
 Do the following (one-time):
