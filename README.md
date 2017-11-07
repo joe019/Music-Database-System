@@ -22,35 +22,39 @@ Do the following (one-time):
 2. To put files in /var/www/html you need root permission. For that, set the root password(if already not set):<br>
 <code>sudo passwd root</code><br>
 Now login as root:<br>
-su root<br>
+<code>su root</code><br>
 Give permission to the folder:<br>
-sudo chmod 755 -R /var/www/html<br>
+<code>sudo chmod 755 -R /var/www/html</code><br>
 or<br>
-sudo chmod 755 /var/www/html<br>
+<code>sudo chmod 755 /var/www/html</code><br>
 
 3. Run the following commands:<br>
-cd /etc/apache2<br>
-nano apache2.conf<br>
+<code>cd /etc/apache2</code><br>
+<code>nano apache2.conf<br></code>
 
 Change the below code:<br>
+<code>
 <Directory /var/www/><br>
 Options Indexes FollowSymLinks<br>
 AllowOverride None<br>
 Require all granted<br>
 </Directory><br>
+</code>
 <br>
 as:<br>
 <br>
+<code>
 <Directory /var/www/><br>
 Options Indexes FollowSymLinks<br>
 AllowOverride All<br>
 Require all granted<br>
 </Directory><br>
+</code>
 
 4. Enable rewrite mode:<br>
-sudo a2enmod rewrite<br>
+<code>sudo a2enmod rewrite</code><br>
 Restart apache server:<br>
-sudo service apache2 restart<br>
+<code>sudo service apache2 restart</code><br>
 
 5. Download the code as zip("Music-Database-System.zip"),extract it and copy it to /var/www/html/
 
