@@ -1,7 +1,7 @@
 # Music Database System
-## DBMS PROJECT
-### Joe Antony 15CO220
-### Prateek Kembhavi 15CO223
+## Course Code : CO301
+## Course : Database Management Systems
+### Overview
 
 ### To run the project : 
 
