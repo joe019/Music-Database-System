@@ -19,7 +19,7 @@ For Windows
 
 
 For Ubuntu
-1. Install LAMP and phpMyAdmin in Ubuntu
+1. Install LAMP and phpMyAdmin in Ubuntu.
 
 2. To put files in /var/www/html you need root permission. For that, set the root password (if already not set):<br>
    <code>sudo passwd root</code><br>
